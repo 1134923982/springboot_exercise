@@ -10,6 +10,6 @@ public interface BookMapper {
     int addBook(Book book);
     int deleteBookById(Integer id);
     int updateBookById(Book book);
-    Book getBookById();
+    Book getBookById(Integer id);
     List<Book> getAllBooks();
 }
