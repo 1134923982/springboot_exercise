@@ -4,6 +4,11 @@ server:
     uri-encoding: utf-8
 
 spring:
+  security:
+    user:
+      name: user
+      password: 123
+      roles: admin
   datasource:
 #    type: com.alibaba.druid.pool.DruidDataSource
 #    driverClassName: com.mysql.jdbc.Driver
